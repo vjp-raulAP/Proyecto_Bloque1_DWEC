@@ -1,5 +1,7 @@
 # Proyecto_Bloque1_DWEC
 
+![imagen1](imagenes/imagen1.png)
+
 # Análisis de Amazon: Frontend, Backend y modelo Cliente-Servidor
 
 ## 1. Introducción
@@ -107,5 +109,5 @@ NAVEGADOR WEB
    v
 USUARIO
 
-![imagen1](imagenes/imagen1.png)
+
 
