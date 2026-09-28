@@ -90,6 +90,28 @@ El funcionamiento básico sería el siguiente:
 
 ![imagen2](imagenes/imagen2.png)
 
+
+## Resumen de DevTools
+
+En la imagen podemos observar la pestaña **Network** de los DevTools del navegador. Esta herramienta permite ver las peticiones que realiza el navegador a los servidores de Amazon.
+
+Al seleccionar una petición, en **Headers** podemos consultar información sobre la comunicación entre el cliente y el servidor.
+
+En **Response Headers** aparecen datos enviados por el servidor, como:
+
+- `Access-Control-Allow-Origin`: indica el origen permitido.
+- `Access-Control-Allow-Methods`: indica los métodos HTTP permitidos.
+- `Content-Encoding`: indica que la respuesta utiliza compresión `gzip`.
+- `Content-Length`: indica el tamaño de la respuesta.
+- `Connection`: muestra que la conexión utiliza `keep-alive`.
+- `Server`: información sobre el servidor.
+- `Strict-Transport-Security`: relacionado con la seguridad mediante HTTPS.
+- `X-Amz-RequestId`: identificador de la petición de Amazon.
+
+También aparece **Request Headers**, que contiene información enviada por el navegador al servidor.
+
+En resumen, los DevTools permiten observar cómo el **cliente (navegador)** y el **servidor de Amazon** intercambian información mediante peticiones y respuestas HTTP.
+
 ### Ejemplo: búsqueda de un producto
 
 Si un usuario busca "ordenador portátil" en Amazon:
