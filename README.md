@@ -106,3 +106,5 @@ NAVEGADOR WEB
    |
    v
 USUARIO
+
+![imagen1](C:\Users\alumno.DAM2-01\Desktop\DWEC\Proyecto_Bloque1_DWEC\imagenes)
