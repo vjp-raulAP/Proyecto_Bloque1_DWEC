@@ -100,7 +100,7 @@ Al seleccionar una petición, en **Headers** podemos consultar información sobr
 En **Response Headers** aparecen datos enviados por el servidor, como:
 
 - `Access-Control-Allow-Origin`: indica el origen permitido.
-- `Access-Control-Allow-Methods`: indica los métodos HTTP permitidos.
+- `Access-Control-Allow-Methods`: indica los métodos HTTP permitidos. POST
 - `Content-Encoding`: indica que la respuesta utiliza compresión `gzip`.
 - `Content-Length`: indica el tamaño de la respuesta.
 - `Connection`: muestra que la conexión utiliza `keep-alive`.
