@@ -1,8 +1,11 @@
 # Proyecto_Bloque1_DWEC
 
+<<<<<<< HEAD
 raul
 
 
+=======
+>>>>>>> 156c8b19d176eca21692ff6c75af0a2ddc0adf4b
 # Análisis de Amazon: Frontend, Backend y modelo Cliente-Servidor
 
 ## 1. Introducción
