@@ -112,6 +112,65 @@ También aparece **Request Headers**, que contiene información enviada por el n
 
 En resumen, los DevTools permiten observar cómo el **cliente (navegador)** y el **servidor de Amazon** intercambian información mediante peticiones y respuestas HTTP.
 
+
+![imagen4](imagenes/imagen4.png)
+
+# Resumen del DevTools
+
+La imagen muestra **Chrome DevTools → Network (Red)**, utilizado para inspeccionar las peticiones que realiza una página web.
+
+## Panel izquierdo — Solicitudes
+
+- Se muestran aproximadamente **225 peticiones**.
+- Aparecen recursos como:
+  - `favicon.ico`
+  - archivos `.html`
+  - archivos `.VTT`
+  - servicios internos de Amazon (`com.amazon...`)
+- La petición seleccionada es **`favicon.ico`**.
+
+## Panel derecho — Headers
+
+### General
+
+- **Request URL:** `https://www.amazon.es/favicon.ico`
+- **Request Method:** `GET`
+- **Status Code:** `200 OK`
+- **Remote Address:** `13.224.82.219:443`
+- **Referrer Policy:** `strict-origin-when-cross-origin`
+
+### Request Headers
+
+- `:authority` → `www.amazon.es`
+- `:method` → `GET`
+- `:path` → `/favicon.ico`
+- `:scheme` → `https`
+- `Accept` → formatos de contenido aceptados.
+- `Accept-Encoding` → compresiones aceptadas (`gzip`, `deflate`, `br`, `zstd`).
+- `Accept-Language` → idiomas preferidos (`es-ES`, etc.).
+- `Cookie` → información de sesión/estado enviada al servidor.
+
+## Pestañas superiores
+
+| Pestaña | Función |
+|---|---|
+| **Headers** | Muestra las cabeceras de la petición y respuesta |
+| **Preview** | Permite visualizar una vista previa de la respuesta |
+| **Response** | Muestra el contenido recibido del servidor |
+| **Initiator** | Indica qué acción o código originó la petición |
+| **Timing** | Muestra cuánto tardó cada fase de la petición |
+| **Cookies** | Muestra las cookies relacionadas con la petición |
+
+## En resumen
+
+El **Network de DevTools** permite ver cómo el navegador se comunica con un servidor.
+
+En este caso:
+
+`Navegador → GET /favicon.ico → Amazon → 200 OK`
+
+Es decir, el navegador solicitó el favicon de Amazon y el servidor respondió correctamente.
+
 ### Ejemplo: búsqueda de un producto
 
 Si un usuario busca "ordenador portátil" en Amazon:
