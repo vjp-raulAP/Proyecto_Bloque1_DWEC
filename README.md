@@ -157,6 +157,13 @@ En este caso:
 
 Es decir, el navegador solicitó el favicon de Amazon y el servidor respondió correctamente.
 
+
+![imagen5](imagenes/imagen5.png)
+
+
+# Resumen del DevTools
+
+- **Status Code:** `404 OK`. 
 ---
 
 ## Ejemplo: búsqueda de un producto
