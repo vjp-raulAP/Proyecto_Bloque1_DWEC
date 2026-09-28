@@ -159,6 +159,7 @@ En este caso:
 
 Es decir, el navegador solicitó el favicon de Amazon y el servidor respondió correctamente.
 
+---
 
 ## Ejemplo: búsqueda de un producto
 
