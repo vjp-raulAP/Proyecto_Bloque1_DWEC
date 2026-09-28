@@ -4,8 +4,6 @@
 
 # Análisis de Amazon: Frontend, Backend y modelo Cliente-Servidor
 
-
-
 ## Commit de Angel y Raúl
 
 ![imagen3](imagenes/imagen3.png)
