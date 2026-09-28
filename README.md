@@ -77,6 +77,12 @@ El funcionamiento básico sería el siguiente:
 4. El Backend procesa la petición y consulta los datos necesarios.
 5. El servidor devuelve una respuesta al cliente.
 6. El navegador recibe la información y la muestra al usuario.
+---
+
+## 5. Captura DevTools 
+
+
+![imagen2](imagenes/imagen2.png)
 
 ### Ejemplo: búsqueda de un producto
 
@@ -108,6 +114,13 @@ NAVEGADOR WEB
    |
    v
 USUARIO
+
+
+
+
+
+
+
 
 
 
