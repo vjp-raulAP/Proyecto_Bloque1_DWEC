@@ -1,8 +1,5 @@
 # Proyecto_Bloque1_DWEC
 
-# Proyecto_Bloque1_DWEC
-
-
 # Análisis de Amazon: Frontend, Backend y modelo Cliente-Servidor
 
 ## 1. Introducción
