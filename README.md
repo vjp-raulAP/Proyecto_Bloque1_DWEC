@@ -107,5 +107,5 @@ NAVEGADOR WEB
    v
 USUARIO
 
-![imagen1](imagenes\imagen1.png)
+![imagen1](imagenes/imagen1.png)
 
