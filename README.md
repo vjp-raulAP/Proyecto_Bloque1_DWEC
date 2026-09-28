@@ -4,6 +4,12 @@
 
 # Análisis de Amazon: Frontend, Backend y modelo Cliente-Servidor
 
+
+
+## Commit de Angel y Raúl
+
+![imagen3](imagenes/imagen3.png)
+
 ## 1. Introducción
 
 Amazon es una plataforma de comercio electrónico que permite a los usuarios buscar productos, consultar información, añadir productos al carrito y realizar compras a través de Internet.
