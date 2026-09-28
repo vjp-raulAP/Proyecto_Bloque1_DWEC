@@ -163,7 +163,7 @@ Es decir, el navegador solicitó el favicon de Amazon y el servidor respondió c
 
 # Resumen del DevTools
 
-- **Status Code:** `404 OK`. 
+- **Status Code:** `404 OK`. error no encuentra resultados
 ---
 
 ## Ejemplo: búsqueda de un producto
