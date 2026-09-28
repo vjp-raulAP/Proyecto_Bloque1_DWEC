@@ -117,11 +117,10 @@ En resumen, los DevTools permiten observar cómo el **cliente (navegador)** y el
 
 # Resumen del DevTools
 
-La imagen muestra **Chrome DevTools → Network (Red)**, utilizado para inspeccionar las peticiones que realiza una página web.
+La imagen muestra  DevTools → icono favicon
 
 ## Panel izquierdo — Solicitudes
 
-- Se muestran aproximadamente **225 peticiones**.
 - Aparecen recursos como:
   - `favicon.ico`
   - archivos `.html`
@@ -150,17 +149,6 @@ La imagen muestra **Chrome DevTools → Network (Red)**, utilizado para inspecci
 - `Accept-Language` → idiomas preferidos (`es-ES`, etc.).
 - `Cookie` → información de sesión/estado enviada al servidor.
 
-## Pestañas superiores
-
-| Pestaña | Función |
-|---|---|
-| **Headers** | Muestra las cabeceras de la petición y respuesta |
-| **Preview** | Permite visualizar una vista previa de la respuesta |
-| **Response** | Muestra el contenido recibido del servidor |
-| **Initiator** | Indica qué acción o código originó la petición |
-| **Timing** | Muestra cuánto tardó cada fase de la petición |
-| **Cookies** | Muestra las cookies relacionadas con la petición |
-
 ## En resumen
 
 El **Network de DevTools** permite ver cómo el navegador se comunica con un servidor.
@@ -171,7 +159,8 @@ En este caso:
 
 Es decir, el navegador solicitó el favicon de Amazon y el servidor respondió correctamente.
 
-### Ejemplo: búsqueda de un producto
+
+## Ejemplo: búsqueda de un producto
 
 Si un usuario busca "ordenador portátil" en Amazon:
 
